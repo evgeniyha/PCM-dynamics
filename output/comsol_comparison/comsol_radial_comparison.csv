@@ -1,0 +1,6 @@
+point,label,rmse_K,max_abs_error_K
+Point 5,r=0 um, z=-10 nm,8.1562174,21.555856
+Point 4,r=0 um, z=-70 nm,5.961147,7.5275539
+Point 3,r=0 um, z=-150 nm,4.534941,5.8747406
+Point 8,r=5 um, z=-10 nm,7.8302361,18.865156
+Point 9,r=10 um, z=-10 nm,7.3488236,15.633295

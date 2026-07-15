@@ -1,0 +1,11 @@
+{
+  "spatial": {
+    "last_case": "quick_finer",
+    "changes_percent": {
+      "peak_temperature_K": 7.908103634242758,
+      "melt_radius_um": 2.1276595744680997,
+      "melt_depth_nm": 17.857142857142843
+    },
+    "passes_tolerance": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "domain": {
+    "last_case": "quick_r45",
+    "changes_percent": {
+      "peak_temperature_K": 0.0,
+      "final_peak_temperature_K": 0.0,
+      "surface_peak_temperature_K": 0.0,
+      "surface_center_peak_temperature_K": 0.0
+    },
+    "passes_tolerance": true
+  }
+}

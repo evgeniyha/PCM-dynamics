@@ -1,0 +1,12 @@
+{
+  "spatial": {
+    "last_case": "quick_finer",
+    "changes_percent": {
+      "peak_temperature_K": 6.675959197943897,
+      "final_peak_temperature_K": 1.3631331354358545,
+      "surface_peak_temperature_K": 6.675959197943897,
+      "surface_center_peak_temperature_K": 6.675959197943897
+    },
+    "passes_tolerance": false
+  }
+}
