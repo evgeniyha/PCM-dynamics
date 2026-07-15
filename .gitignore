@@ -1,0 +1,6 @@
+.venv/
+.matplotlib_cache/
+__pycache__/
+output/
+lg_modes_test/
+*.zip

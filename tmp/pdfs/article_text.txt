@@ -1,0 +1,830 @@
+
+--- PAGE 1 ---
+MaterialsScienceinSemiconductorProcessing139(2022)106350
+Contents lists available at ScienceDirect
+Materials Science in Semiconductor Processing
+journal homepage: www.elsevier.com/locate/mssp
+Crystallization of GST225 thin film induced by a single femtosecond laser
+pulse: Experimental and theoretical study
+Tatyana Kunkela,*, Yuri Vorobyovc, Mikhail Smayevd,e, Petr Lazarenkof, Alexey Romashkinf,
+Sergey Kozyukhinb
+aMoscow Institute of Physics and Technology, 9 Institutskiy Per., Dolgoprudny, 141701, Russia
+bKurnakov Institute of General and Inorganic Chemistry, Russian Academy of Sciences, 31 Leninski Pr., Moscow, 119991, Russia
+cRyazan State Radio Engineering University, 59/1 Gagarin St., Ryazan, 390005, Russia
+dMendeleev University of Chemical Technology of Russia, 9 Miusskaya Sq., Moscow, 125047, Russia
+eLebedev Physical Institute, Russian Academy of Sciences, 53 Leninsky Pr., Moscow, 119991, Russia
+fNational Research University of Electronic Technology, 1 Shokin Sq., Zelenograd, 124498, Russia
+A R T I C L E I N F O A B S T R A C T
+Keywords: Amorphous to crystalline phase transition in Ge2Sb2Te5 film under the influence of a single femtosecond laser
+Phase-change material Ge2Sb2Te5 pulse is studied. Two-dimensional temperature calculations and kinetic model for crystallization were used to
+Thin films support experimental results and then to explain the fast mechanism of crystallization. Based on comparison with
+Femtosecond laser irradiation
+the experimental data, the theoretical Time-Temperature-Transformation diagram was calculated, that allowed
+Crystallization
+to define the range of cooling rates at which crystallization is possible. The distribution of crystalline fraction in
+Time-temperature-transformation diagram
+the thin film was calculated using these rates. Reflectance of the simulated structures turned out to be in good
+agreement with experimental observations.
+1. Introduction reported for the Ge-Sb-Te materials of various compositions. Thus,
+crystallization of Ge1Sb2Te4 100 nm thick film has been achieved by a
+The telluride based alloys, such as Ge2Sb2Te5 (GST225), possess a proper control of the film thickness with a wavelength 800 nm [5]. The
+unique combination of structural, electrical, and optical properties. The Ge2Sb2Te5 film of 90 nm thickness has been crystallized by a single ul-
+amorphous and crystalline states of these materials exhibit a significant traviolet laser pulse (wavelength λ =248 nm, pulse duration τ=500 fs)
+difference in optical reflectivity and electrical resistivity, while the [6]. In addition, crystalline structure was observed after irradiation of
+transition between these two phases may be achieved reversibly on very Ge2Sb2Te5 films with τ =120 fs pulse of λ =800 nm [7]. Conversely,
+short timescales [1]. crystallization of amorphous material was not achieved by a single laser
+This set of properties attracts a lot of interest to the GST225 within pulse with the same parameters as reported by authors [8].
+the field of optical data storage [2] and non-volatile memories [3,4]. The In our previous study [9] we did not achieve single pulse crystalli-
+basic idea of such data storage applications relies on the reversible zation as well. So, in spite of the efforts made in the abovementioned
+transformation between the disordered amorphous and ordered crys- works, the question remains to be open: what conditions must be created
+talline states, which in particular can be achieved by local influence of for crystallization by a single ultra-short laser pulse becomes possible?
+short laser pulses. In terms of efficiency of such devices, the important The crystallization induced by a laser pulse is regarded as a non-
+issues appear to be the nature of laser-induced phase transitions in isothermal process with non-Arrhenius behavior and is characterized
+GST225 thin films and methods of increasing the transformation rate. by high rates of material temperature changes [10]. The effect of heating
+One of the possible solutions is to use ultra-short laser pulses. Phase rate on the crystallization temperature has been studied by Choi et al.
+transitions in GST225 thin films caused by an ultrafast (femtosecond or [11]. As a result, the empirical formula has been proposed, according to
+picosecond) pulsed laser are of great interest in the field of phase change which the crystallization temperature becomes unexpectedly high at
+memory (PCM) materials. great heating/cooling rates (~1 K/ns). The results have been confirmed
+Crystallization triggered by ultra-short laser pulse has already been by Burr et al. [12]: according to their simulation at an extremely great
+* Corresponding author.
+E-mail address: kunkel.ts@phystech.edu (T. Kunkel).
+https://doi.org/10.1016/j.mssp.2021.106350
+Received 11 May 2021; Received in revised form 15 November 2021; Accepted 22 November 2021
+Availableonline29November2021
+1369-8001/©2021ElsevierLtd.Allrightsreserved.
+
+--- PAGE 2 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+heating rate the crystallization temperature shifts to 550–600 K from the
+value 423 K whiсh is determined from the conventional DSC (at 10
+K/min) [13].
+In the given paper, we study amorphous to crystalline phase transi-
+tions in Ge2Sb2Te5 under the influence of a single femtosecond laser
+pulse. Specifically, we aim to define the conditions that should be
+created to achieve single-pulse crystallization of this material. Based on
+experimental data, we developed a numerical model that distinguishes
+the role of the ultra-fast heating/cooling rate for this phase transition.
+2. Material and methods
+2.1. GST225 thin film
+Amorphous GST225 films of 230 nm thicknesses were deposited by
+direct current magnetron sputtering of a crystalline target (ACI alloys)
+on the substrates with contrasting thermal conductivity and optical
+Fig. 1. The abrupt growth of optical contrast with an increase of the number of
+properties. Two types of substrates were used: thermally oxidized silicon pulses observed for the films with different thickness; pulses energies were 500,
+wafers (thickness of wet thermal oxide is 1 μm) and the same wafers, 350 and 250 nJ for 130, 80 and 30-nm films. Optical images of the modified
+coated consistently with TiN sublayer (50 nm) and tungsten layer (250 areas obtained on 130 nm thick film on substrate I after irradiation with 1
+nm). Further in the text, for clearness, given substrates will be marked as (bottom image) and 4 (top image) pulses are presented as an example of the
+“substrate I′′ and “substrate II”, correspondingly. The pressure of Ar + pale and bright spots, correspondingly.
+ions during the process of GST225 film deposition was 0.57 Pa; the
+sputtering power was 100 W. The surface roughness, phase state and
+Table 1
+distribution of elemental composition for the as-deposited films were
+Parameters of amorphous GST225 and substrates used in modeling.
+controlled by atomic-force microscopy, X-ray diffraction analysis and
+Auger electron spectrometry respectively as described in in Ref. [14]. k(cid:0) thermal conductivity, mW/(μm K) 0.25 ×10-3 [23,24]
+c(cid:0) specific heat, mJ/(g K) 212 [25]
+2.2. Laser irradiation ρ(cid:0) density, g/μm3 5.87 ×10-12 [26]
+R(cid:0) reflection coefficient (for wavelength of 600 0.428 [22]
+nm)
+The irradiation was performed with single femtosecond pulses from
+Yb:KGW laser system Pharos SP (Light Conversion) at a wavelength of α eff (cid:0) absorption coefficient (for 1030 nm 16.2
+wavelength), μm-1
+1030 nm. The pulse duration was determined with a pulse Check
+Tm (cid:0) melting temperature, K 880 [27]
+autocorrelator (APE) and was equal to 185 fs. The radiation was linearly
+Tg (cid:0) glass transition temperature, K 420 [28]
+polarized, focusing was carried out by a lens with a focal length of 75
+η ∞ (cid:0) extrapolated infinite temperature viscosity, 1.1 ×10-5 [29]
+mm (Thorlabs, LA1608-B); the spot diameter on the surface of the GST Pa ×s
+layer was about 60 μm (1/e2). m(cid:0) fragility index 67
+The sample was placed on the ABL1000 air-bearing XYZ-motorized ΔHf (cid:0) enthalpy of fusion, J/cm3 670 [30,31]
+stage (Aerotech) synchronized with the femtosecond laser. The stage σ(cid:0) interfacial energy, J/m2 0.063 [12,32]
+translation and laser shots were programmed using SCA Professor soft- Eη(cid:0) viscosity activation energy, eV 2 [33,34]
+ware (Workshop of Photonics). The pulse energy was controlled with the ksubstrate (cid:0) substrate thermal conductivity (W/SiO2), 163 ×10-3 1.45 ×10-3
+WattPilot attenuator (Altechna). mW/(μm K) [35] [35]
+The sample was shifted along the line in the plane orthogonal to the as (cid:0) substrate thermal diffusivity (W/SiO2), μm2/s 6.3 ×107 9.2 ×105
+optical axis. Every 200 μm, the stage was stopped and a femtosecond [35] [35]
+pulse was delivered to it, then the sample was moved to the next point,
+at which it was irradiated again but with a pulse of different energy.
+5% only (see the lower inset in Fig. 1). A further increase of the pulse
+Thus, the sample was irradiated with single pulses of energy in the range
+200 ÷ 1200 nJ with a step of 50 nJ. Three lines of laser spots were energy leads to ablation of the material. Appearance of the pale spots is
+an indicator of the ongoing restructuring, and earlier we assumed that a
+recorded with identical irradiation regimes and identical results were
+transition from an amorphous to a glassy state as the result of melt-
+obtained for the pulses of the same energy demonstrating good repro-
+quench process was observed.
+ducibility of the experimental setup.
+It was demonstrated that in the case of 230 nm thick film a single
+femtosecond laser pulse triggered the great change of reflectivity. Op-
+3. Results
+tical images of modified areas, obtained on the film on a dielectric
+substrate, are shown in Fig. 2 (top row). When irradiated with a pulse of
+Earlier, using the same laser system, we have showed that the phase
+energy less than 350 nJ, no visible changes are observed inside the
+transformation of films less than 130 nm thickness can be triggered by
+irradiated area. Influence of 350 nJ pulse leads to the appearance of a
+applying multiple femtosecond laser pulses only [9]. The required
+pale spot. At 450 nJ the formation of a brighter center can be detected.
+number of pulses causing the crystallization decreased with the film
+Further increase of the pulse energy is accompanied with growth of the
+thickness increasing (Fig. 1). Moreover, this number of pulses did not
+radii of the both pale and bright areas. As a result, the bright spots
+depend on the substrate conductivity type (the same substrates were
+surrounded by a pale ring are formed (Figs. 2, 650 nJ). Optical contrast
+described in Section 2.1; their conductivity values are presented in
+of pale rings with amorphous background is less than 5% and does not
+Table 1). This regularity suggests that, the films of a sufficiently large
+depend on the pulse energy. Optical contrast of bright spots, on the
+thickness could be crystallized with a single femtosecond pulse. Thus,
+contrary, grows with the pulse energy increasing (see bottom row in
+the aim of the current study becomes to approve this hypothesis.
+Fig. 2). Qualitatively, the same results were observed in the case of the
+Irradiation with an insufficient number of pulses with energies up to
+conductive substrate. The only difference is the threshold energies: the
+500 nJ formed so-called “pale spots” with optical contrast (OC) about
+2
+
+--- PAGE 3 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+Fig. 2. Optical images of the modified areas (top row) and corresponding optical contrast profiles (bottom row), for the film on the substrate I.
+pale spots appeared under irradiation with pulse 400 nJ and more, and melting of, since the fluence of laser pulses in our case is enough to
+the bright center started to form under irradiation with 500 nJ pulse. provide its heating to the melting point and to supply the latent heat of
+We assumed that the temperature regime required for crystallization melting. The last one is the material crystallization provoked by elevated
+is achieved only at a sufficiently large film thickness. The driving force temperature should be simulated to provide us with a physical picture
+for crystallization is proportional to undercooling. Therefore, in this case leading to the appearance of the modified areas.
+the crystallization is initiated only when the material, initially melted by
+laser pulse, is cooled below its melting point due to heat dissipation. The
+4.1. Temperature distribution induced by ultrashort laser pulse
+description of the crystallization process in fact is equivalent to simu-
+lation of the quenching process. While molten material is cooled down, a
+Description of the process of heating semiconductors and dielectrics
+competition between two processes occurs: a decrease in the atomic
+under the impact of femtosecond pulses is a complex theoretical prob-
+mobility and formation of the crystalline phase, specifically, discrete
+lem. Here absorption of radiation occurs with interband transitions,
+nuclei. Nucleation is not instantaneous, so that for the crystallization
+which leads to the generation of free charge carriers. As their concen-
+proceeding it is necessary to keep the material for sufficient time under
+tration increases, intraband absorption (absorption by free carriers)
+elevated temperature, when increased atomic mobility facilitates atomic
+becomes significant. Electrons and holes absorb radiation, and eventu-
+rearrangement. If time for material solidifying is shorter, virtually no
+ally the carrier energy is transferred to the lattice through the electron-
+crystalline phase is formed, and the glassy phase formation is observed.
+phonon interaction. However, electrons and holes energy distribution
+That is why it is commonly accepted that the formation of glass upon the
+can be non-equilibrium and the concentration can change significantly
+melt-quenching process is governed by the cooling rate. This idea ap-
+during pulse impact. These factors are the main challenges for the
+pears to be the main point for considering the quenching process using
+analysis of the interaction of an ultrashort pulse with an absorbing
+Time-Temperature-Transformation (TTT) diagrams [15,16]. A TTT di-
+medium.
+agram is constructed by calculating the time that is necessary to trans-
+In this work, we do not consider directly the process of excitation of
+form a particular fraction of material to the crystalline phase at a given
+the electron subsystem during the pulse impact, but focus on the final
+temperature.
+result in the form of local heating of a thin film. Nevertheless, we cannot
+Thus, to describe the crystallization process triggered with a single
+completely ignore the mentioned above physical processes of non-
+femtosecond pulse, we estimate the heat distribution in a film caused by
+equilibrium laser-matter interaction. We assume that the most signifi-
+the laser irradiation, its subsequent dissipation, and phase trans-
+cant contribution of excited electronic subsystem is increased with light
+formations of the film material accompanying these processes.
+absorption due to a large number of photo-generated charge carriers.
+Therefore, we estimated the value of the absorption coefficient, con-
+4. Simulation of laser-induced phase transitions
+nected to free carriers using the Drude model for the harmonic oscillator
+[18]:
+In order to develop a mathematical model of the observed laser-
+induced modification of GST225, three processes should be accounted Nλ2q2
+for attention. The first one is the specific influence of laser pulse on the α f = 4π2ε 0 m∗c3nΔt (1)
+crystallization. We suppose that in our experiment the leading role is
+played by the heating effect. A thermal effects, like bonds rupture by where N is the concentration of free carriers, λ is the free space laser
+intense radiation [1,17], are also possible in the phase-change materials, wavelength, q is the fundamental charge, ε 0 is the vacuum permittivity,
+but they are normally considered in the frame of reverse phase transition m* is the conductivity effective mass of the free carrier, c is the light-
+from crystalline to amorphous state. In the current study we are devel- speed, and n is the real component of the semiconductor refractive
+oping a proper thermal model to describe influence of a single femto- index, Δt is the mean time between collisions of the oscillating particles
+second laser pulse on the thin film. The second process is material and the nuclei. The value of m* for GST225 can be taken as 0.1 of the free
+3
+
+--- PAGE 4 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+electron mass [19] and Δt can be estimated as 1 ps [20]. Charge carrier ( )
+2αE r2 (cid:0) )
+density can be estimated as [21]: q(r, z)=(1(cid:0) R) πw2τ exp (cid:0) w2 exp (cid:0) α eff z , (5)
+α(1(cid:0) R)Iτ
+N≈ , (2)
+ħω where R is the reflection coefficient, E is the pulse energy and w is the
+radius of the Gaussian beam. The last exponential factor reflects the Beer
+where α is the linear absorption coefficient of the amorphous GST225, R law, which includes the absorption coefficient α eff, calculated in the
+is the reflection coefficient, τ is pulse duration, ω is laser radiation fre-
+beginning of Section 4.1.
+quency and I is the peak pulse intensity.
+Film is brought into thermal contact with a substrate with different
+The maximum beam intensity achieved with our equipment is of the
+thermal properties. Continuity conditions at the interface between film
+order of 1011 W/cm2. Tabulated absorption coefficient of non-excited
+and substrate requires:
+amorphous GST225 for 1030 nm wavelength ~10 μm-1 and reflectiv-
+∂T ∂T
+i f t e y m t is o s 0 ec .4 o 2 n 8 d [ la 2 s 2 e ] r . i T rr h a u d s i , a t d io e n n s i i s t y a b o o f u f t r e 5 e ⋅ 1 c 0 h 2 a 1 r c g m e -3 c . a r H ri e e n r c s e i , n t d h u e c e ro d u g b h y k ∂z | z=h =k substrate su ∂ b z strate| zs=0 , T| z=h =T substrate | zs=0 , (6)
+order of magnitude estimation of free carriers’ absorption is about 5
+μ ef m fe -1 c . t i I v n e o p u h r e n ca o l m cu e l n a o ti l o o n g s ic , a w l e a b u s s o e r p th ti e o n su c m o e α ffi eff ci = en α t. + T α o f c a o s n t n h e e c t v a e l x u p e e r o i f - whe T r s e ub h str a i t s e | a zs = fi 0 l m an t d h ∂ ic Ts k u∂b n z str e ate s | s z . s =0 can be found by solving the heat equation
+mental results with such theory, we proceeded from the premise that the for substrate:
+( ( ) )
+edge of the modified area presented itself the boundary of the molten 1 ∂ ∂T ∂2T ∂T
+region formed as a result of irradiation, which is reasonable to expect a s r ∂r r su ∂ b r strate + ∂ su z b 2 strate = su ∂ b t strate, (7)
+due to the previous results [9]. If so, the value of the effective absorption
+coefficient, which provides best match between experiment and simu- ∂T ∂T
+lation, is 16.2 μm-1 which is surprisingly close to the estimation given T substrate | zs=hs =T room , su ∂ b r strate| r=RN =0, su ∂ b r strate| r=0 =0,
+above.
+Therefore we have to solve the problem of thermal conductivity for a where hs is a substrate thickness and RN is a lateral size of the film.
+GST225 amorphous film with a thickness of 230 nm and a lateral size 1 Radial symmetry condition:
+mm thermally contacting with substrates with different thermal pa-
+∂T
+rameters. We used a dielectric substrate with the thickness 1 μm and a ∂r 0| r=0 =0, (8)
+conductive substrate with the thickness 0.5 μm. A conductive substrate,
+the actual-used substrate, was a multilayer structure made of metallic The lateral size of the film is significantly larger the laser beam
+layers on top of the silicon base (see Section 2.1). However, within the radius; therefore, the condition on the film lateral boundary is:
+range of simulation parameters examined in this study there is no need ∂T
+to perform calculations with such a complicated structure. Since we are ∂r 0| r=RN =0, (9)
+interested in the heat dissipation into the substrate, but not in the dis-
+tribution of heat in it, it is reasonable to replace multilayer structure At the first stage of the solution, we render the top film surface
+with a thick homogeneous conductive layer. Trial calculations showed impervious to heat, because any possible heat removal in this case is
+no difference in heat dissipation with such a replacement. negligible in comparison with the energy furnished to the film by the
+The film is heated by a single laser pulse with τ =185 fs and a λ = laser pulse. Therefore, for the film surface:
+1030 nm. The beam has spatial Gaussian profile; the beam radius is 30 ∂T
+μm. The pulse energy can take values from 200 to 1200 nJ. ∂z 0| z=0 =0, (10)
+Since an ultrashort pulse appears to be a heat source, we divide the
+heat conduction problem into two parts: film heating during τ =185 fs The heating process causes melting of the amorphous phase; i.e. is
+accompanied by absorption of the melting latent heat. In this case, an
+and the subsequent heat transition from the heated region into film bulk.
+equivalent specific heat method can be used taking into account such
+The solution is found by the finite difference method using an im-
+plicit scheme. Program for numerical modeling was written in Python
+absorption [1]. The latent heat of melting ΔHf is converted into appro-
+version 3.9 using NumPy and SciPy libraries. Uniform mesh with coor-
+priate units for specific heat cE and added to the specific heat term over a
+temperature range at which melting occurs. The equivalent specific heat
+dinate increments 50 nm and 5 nm for r and z directions, respectively,
+which includes the latent heat term and varies over the solidification
+was used. The constant time increment was 1 fs for the calculation of
+range has the following form:
+heating with a pulse during 185 fs and 0.5 ns for simulation of subse-
+quent cooling. ∂f
+c E =c+ ΔH f∂T m, (11)
+4.1.1. Heating the film under the laser irradiation
+The pulse intensity has an axisymmetric spatial distribution, which where fm is the temperature dependent fraction of the melt which has the
+allows solving heat-transfer equation in the cylindrical coordinate sys- form of a sigmoid function.
+tem:
+( ( ) ) 4.1.2. Heat spread from a heated area
+1 ∂ ∂T ∂2T ∂T
+k r 0 + 0 +q(r, z)=cρ 0 (3) We solve the problem of thermal conductivity for a locally heated
+r ∂r ∂r ∂z2 ∂t
+film brought into thermal contact with a substrate with different thermal
+properties. For the film, the equation has the form:
+with initial condition: ( ( ) )
+1 ∂ ∂T ∂2T ∂T
+T 0 | t=0 =T room (4) k r ∂r r ∂r + ∂z2 =cρ ∂t (12)
+Here, q(r, z)is the volumetric heating source, defined in accordance
+with the spatial and temporal distribution of light intensity in absorbing with initial condition:
+media: T| t=0 =T 0 . (13)
+For the film-air interface:
+4
+
+--- PAGE 5 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+∂T semiconductors [31,39].
+k ∂z | z=0 =a(T(cid:0) T room ). (14) The rate Dn of monomers attachment to the spherical cluster of n
+Conditions for z=h and r=0; RN are the same as in (6) and (8), (9), monomers is
+(
+defined by Kelto
+)
+n et al. [40] as
+resp T e e c m tiv p e e l r y a . t ure transfer in the bulk of the film can also cause melting of D n =4n2 3γexp (cid:0) ΔG n+ 2 1 k (cid:0) T ΔG n , (18)
+B
+the amorphous phase. Then this also has to be taken into account by
+introducing the equivalent specific heat, as shown in formula (11). where Gn is the free energy of a cluster of n monomers:
+Numerical values of thermodynamic parameters for GST225 amor- (cid:0) √̅̅̅ )
+2
+phous film are listed in Table 1. ΔG n = 6 πv m n 3σ(cid:0) nμ m . (19)
+The value of γ defines the unbiased molecular jump frequency (Hz) at
+4.2. Crystallization model the cluster surface. It can be expressed in terms of diffusion coefficient D
+[40]:
+Due to statistical fluctuations, small regions of the crystalline phase 6D
+constantly appear and disappear within the amorphous material. They γ= λ2 , (20)
+can append monomers (atoms or molecules), which make them grow, or j
+lose them, dissolving. The larger those regions are, the longer they exist. √̅̅̅̅̅̅
+There is a critical size — once a cluster reaches it, the probability of where λ j — average jump distance, which could be estimated as 3vm.
+Diffusion coefficient is related to the viscosity η via Stokes-Einstein
+dissolution becomes less than the probability of growth. Those critical
+equation
+clusters are the nuclei of crystalline phase. As the growth of clusters
+proceeds through a sequence of steps of joining monomers due to fluc- D= k B T . (21)
+tuations, the process of nucleation is by no means instantaneous. Ki- 3πλη
+netics of this process is described in terms of time-lag Θ for nucleation,
+The value of η is itself temperature dependent. To model this
+which is a characteristic time of reaching the steady state value of
+dependence, we adopt the formulation proposed by Aladool et al. [29].
+nucleation rate Jss (rate of nuclei production per unit volume of initial
+phase). Growth of nuclei in a condensed phase is controlled by transition
+They assumed, that while below the glass transition temperature Tg the
+temperature dependence of η obeys simple Arrhenius behavior, at higher
+of monomers across the interface of a crystalline cluster mainly. Under
+temperatures it is more complex and is described by MYEGA (Maur-
+this assumption, the growth rate U (the rate at which the interface of a
+o-Yue-Ellison-Gupta-Allan) model [41], leading to:
+crystalline cluster advances) can be considered as a constant [36]. These
+three quantities Θ, Jss, and U fully describe the crystallization at a given
+⎧ ( [ ( )])
+⎪⎪⎪⎨12+log exp E
+k
+η
+T
+1 (cid:0)
+T
+1 T<T
+g
+,
+B g
+logη= [( )( )] (22)
+⎪⎪⎪⎩logη
++(12(cid:0) logη )
+T
+gexp
+m
+(cid:0) 1
+T
+g(cid:0) 1 T≥T .
+∞ ∞ T 12(cid:0) logη T g
+∞
+temperature and should be considered while constructing a TTT
+diagram. The glass transition temperature is defined here as the temperature
+Kashchiev [37] obtained the following expression for the nucleation at which the viscosity equals 1012 Pa s. Parameters of MYEGA model are
+time-lag: extrapolated infinite temperature viscosity η ∞ and fragility index m. In
+our simulation, index m is selected by matching TTT curves with the
+4nk T
+Θ= c B , (15) corresponding cooling curves, as described in the following section. At
+μ D
+m c temperatures below Tg, the viscosity follows Arrhenius behavior with
+where kB is the Boltzman constant, μ m is the difference (positive) in activation energy Eη.
+The steady state nucleation rate is described by the equation [37,40]:
+Gibbs free energy per one monomer transition from initial to trans-
+√̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅ ( )
+f s o p r h m er e i d c a p l h cl a u s s e t , e r a n o d f c D ri C ti c i a s l t s h iz e e r n a C te : (Hz) of monomer addition to the J ss =v(cid:0) m 14n2 3c γ 6πk μ B m Tn c exp (cid:0) Δ k B G T c , (23)
+32πσ3v2
+n c = 3 μ3 m, (16) where ΔGC is the Gibbs free energy of the critical cluster:
+m
+16πσ3v2 μ
+where σ is the interfacial energy, vm is the volume of material per one ΔG c =ΔG nc = 3μ2
+m
+m= 2 mn c (24)
+monomer. We consider the monomer to be an arbitrary atom of material
+composition. Therefore, the value of ν m can be estimated from the Growth ( rate can ( be defi ) n ) ed as [42]:
+density of GST225 and its average molar mass. 4k T μ
+Free energy change during crystallization can be approximated using U= 3πλ B 2η 1(cid:0) exp (cid:0) k
+B
+m T . (25)
+Thompson-Spaepen formula [38]:
+T (cid:0) T 2T
+Once Θ(T), Jss(T), and U(T) are established, the TTT curve could be
+μ m =v m ΔH f m T T+T , (17) calculated. Starting from the usual Kolmogorov-Johnson-Mehl-Avrami
+m m time dependence of crystallinity XC under condition of bulk nucleation
+[16]:
+where ΔHf is the enthalpy of fusion, and Tm is the melting point. This
+approximation is considered appropriate for the case of chalcogenide
+5
+
+--- PAGE 6 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+∫t
+ln(1(cid:0) X C )= (cid:0) 4 3 πU3 J(t′)(t(cid:0) t′)3dt′ (26)
+0
+and using the following expression for time-dependent nucleation rate
+[37]:
+[ ( )]
+∑∞ t
+J(t)=J SS 1+2 ((cid:0) 1)nexp (cid:0) n2 τ , (27)
+n=1 l
+we eventually arrive at:
+[( ) ( ) ( ) ( )
+π t 4 2π2 t 3 7π2 t 2 31π2 t
+ln(1(cid:0) Х ) =(cid:0) J U3τ4 (cid:0) + (cid:0) +
+C 3 SS l τ 3 τ 30 τ 630 τ
+l l l l
+( ( [ ] ))]
+∑∞ ((cid:0) 1)n t
++48 exp (cid:0) n2 (cid:0) 1 ,
+n=1
+n8 τ
+l
+(28)
+/
+where τ l =6 π2 Θ.
+Provided that the value of XC is given, the crystallization time t could
+be calculated solving the above equation numerically. The kinetic pa-
+rameters of amorphous GST225 used in the simulation could be found in
+Table 1. The procedure for constructing TTT curves is described in
+subsection 5.1.
+In order to determine the optical contrast on the surface of the
+formed crystalline structure, the corresponding distribution of the
+reflection coefficient over the surface was calculated using the transfer
+matrix method (TMM) code [43]. For this purpose, the complex
+dielectric function of partially crystalline material (XC <1) was deter-
+f
+F
+o
+i
+r
+g .
+e d
+3
+g
+.
+e
+T
+o
+T
+f
+T
+c r
+d
+y
+i
+s
+a
+t
+g
+a
+r
+ll
+a
+i
+m
+ne
+a
+s
+t
+p o
+v
+t
+a
+s
+r
+(
+io
+so
+u
+l
+s
+i d
+c r
+li
+y
+n
+s
+e
+ta
+s)
+ll i
+a
+n
+n
+i
+d
+ty
+p
+(
+a
+a
+le
+s
+s
+in
+p
+d
+o
+i
+t
+c
+s
+a
+(
+t
+d
+e
+a
+d
+s
+)
+h
+a
+e
+n
+d
+d
+l in
+co
+e
+o
+s)
+l
+,
+i n
+o
+g
+b t
+t
+a
+r
+i
+a
+n
+c
+e
+e
+d
+s
+mined according to effective medium theory as [4]:
+for different pulse energies; OC profiles are shown on the inset: experimental
+[ √̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅̅
+( ) data (dots) and its approximation with broken line (solid line); arrows indicate
+ε(X C , ε a , ε c )= 1 4 2ε p (cid:0) ε′ p + 2ε p (cid:0) ε′ p 2 +8ε a ε c , points at which T(t) curves for crystalline spots were measured.
+the optical contrast profile, as shown in the inset in Fig. 3. The minimum
+ε p =(1(cid:0) X C )ε a +X C ε c , (29) optical contrast of the bright spot was determined at same point as well.
+ε′ =(1(cid:0) X )ε +X ε , Finally, using TMM code and eq. (29), we calculated crystallinity XС
+p C c C a corresponding to the edge of the bright spot. For this stage we used
+optical images of spots, obtained for the film on substrate I. Further
+where ε a and ε c are complex dielectric constants of amorphous and verification will show that calculated diagram is correct for both
+crystal GST225.
+different substrates and different film thickness and is therefore sensitive
+to the GST225 properties solely.
+5. Discussion The second stage was to calculate the TTT curve for a given crys-
+tallinity value with the use of (28). The TTT curve has to be tangent to
+5.1. TTT diagram and critical cooling rate the corresponding cooling curve. To achieve this, we selected an
+appropriate value of fragility index m.
+In our assumption, for the composition of GST225 under constant Procedure was repeated for the spots obtained at different pulse
+other conditions, crystallinity XС is determined by the material cooling energies to check the accuracy of fragility index in order to make sure
+rate. In Fig. 3, the lines of gray shades show TTT curves corresponding to that the selected parameter is correct. for the simulation m =67 The best
+different values of crystallinity (labeled on the curves). Equations (7) match between two types of curves was shown for the simulation with m
+and (12) allow the construction of cooling curves at any point of the thin = 67 Using the given fragility index, “C”- shaped curves, that define
+film –curves constructed for spots edges are shown in orange and blue in crystallization temperature, crystallization time and cooling rate
+Fig. 3. The crystallinity formed during particular cooling regime is required for different levels of crystallinity, were plotted, (see Fig. 3).
+determined by the TTT curve with which the cooling curve has a single The “C” curve divides the TTT diagram into three parts, starting from
+intersection point. The value of cooling rate required for the formation glass transition temperature up to the melting point. Upon cooling from
+of a phase with a given crystallinity is defined as the slope of a line the melting point increased supercooling provides the driving force for
+tangent to this intersection point on the corresponding TTT curve. crystallization process, which is modeled by eq. (17) Consequently,
+All the parameters necessary to plot a diagram are known from the cooling leads to higher rate of crystallization process and therefore to a
+literature (their values and corresponding sources are given in Table 1). decrease of crystallization time. At low temperatures, however, crys-
+However, for fragility index m, its value varies over a wide range in tallization time increases meaning decrease of crystallization rate. It is
+different sources, and the kinetic model is very sensitive to it. So, it was explained by decreasing atomic mobility, which is described by eq. (22).
+required to adjust this parameter during construction of TTT diagram. Ultimately, crystallization process is governed by the interplay between
+The procedure of TTT curve plotting consisted of two stages. At the two abovementioned factors having opposite temperature de-
+first stage, according to the results of solving the problem of thermal pendencies, which lead to “C”-shaped form of TTT diagrams. At the
+conduction, the cooling curve was determined at the point corre- bottom, the “C”-shaped curve is limited by T =423 K – the equilibrium
+sponding to the edge of the bright spots. The latter was determined from
+6
+
+--- PAGE 7 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+crystallization temperature. Corresponding cooling rate in this case is regions, t =0 corresponds to the moment when the material has cooled
+about 10 K/min, which is consistent with reported experimental data down to the melting temperature of 890 K. For the regions, heated below
+[13,44]. The second region is situated from 775 K to Tm, where nucle- the melting point, the moment of the end of the pulse is taken as the
+ation is inhibited by too high atomic diffusion. Between these areas, origin of a time scale.
+there is the so-called nose of the TTT curve which determines the min- The initial temperature to which the material was heated together
+imum crystallization time and the corresponding temperature. with the subsequent cooling rate strongly affects the obtained crystal-
+According to the simulation results, the nose of TTT diagram is linity. The method described above for converting the cooling rate into
+located at 670 K and does not depend on crystallinity. If one assumes the crystallinity makes it possible to determine the value of the latter at
+lower detectable limit of crystallization Xc =10-8, the minimum time different points of the irradiated material, relying on the cooling curves
+required to reach a given crystallinity is tC =1 ns. Critical cooling rate is obtained by numerically solving the heat equation. Fast cooling from the
+defined as the slope of a tangent from Tm to the nose point, and it gives a melting temperature leads to the transformation into the glass con-
+value of 316 K/ns. Values of TTT nose position, incubation time and taining a small amount of the crystalline fraction – about 0.03 (curve C,
+critical cooling rate are within the range of values reported in Refs. [45, Fig. 4 (c)), and the pale spot formation is observed. The slower cooling
+46]. process, the more crystalline nuclei can be formed. If the cooling rate of
+Fig. 3 represents pairs “cooling curve-TTT curve” for the pale and the melt decreases to 6.4 K/ns, n one can observe the formation of a
+bright spots formed after 400 and 900 nJ laser pulses. Pale spots have bright center with crystallinity of about 0.1 and higher (curves A, B,
+the form of barely crystallized material with a crystallinity about Fig. 4 (c)).
+0.02–0.06. The cooling rate required for their formation is about 18 K/ However, the crystallization occurs not only from the melt. In deeply
+ns, which is also in line with the previously reported experimental data located layers of a material, temperature of about 670 K can be main-
+[47]. For the bright spots formation with a crystallinity at least about 0.1 tained for longer than 60 ns. This, in turn, leads to a transformation from
+the cooling rate should not exceed 6.4 K/ns. solid amorphous to solid crystalline material (curves E, F, Fig. 4 (c)). As a
+To achieve the full crystallization, the cooling rate must be ensured result, the deep-lying thin layers with a high value of XC are formed.
+to be no more than 3.8 K/ns. This requires reducing the heat dissipation In even deeper layers, crystallization is impossible due to fast cooling
+from the film. The possible options to achieve this effect are the from low (about 500 K, see curve D in Fig. 4 (c)) temperatures. Higher
+following: to use the substrate with a lower thermal conductivity or/and temperatures cannot be achieved due to insufficient absorption and
+to increase the film thickness. energy confinement at the surface due to melting.
+Based on the TTT diagram, we found the distribution of crystalline
+fraction in the bulk of the material on substrate I formed after irradiation
+5.2. Temperature distribution and crystallization
+with pulses of different energies (Fig. 4). The pulse energy being
+increased, the crystallinity in the center of the irradiated region also
+As mentioned above, impact of 185 fs pulses is considered as
+increases. Thus, the crystallinity in the near-surface layers for 350, 450
+instantaneous heating of the material above melting point. After the end
+and 650 nJ pulses is 0.34, 0.74 and 0.83, correspondingly. Moreover,
+of the pulse, the irradiated region begins to cool down and solidify.
+with an increase in the pulse energy, more and more deeply located
+According to the simulation, pulse influence leads to heating of the
+layers are heated to the temperature required for crystallization.
+irradiated area to temperatures above the melting point and local
+Consequently, the thickness of the region occupied by the crystalline
+melting in the central part. The molten area turns out to be heated above
+fraction increases. As the final result, the optical contrast of the surface
+1000 K and occupies several nanometers of the film bulk (Fig. 4, b).
+increases as well. To make sure the modeling results are correct we
+Cooling curves at various points on the surface and in the depth of the
+calculated the surface optical contrast distribution from simulated
+irradiated region are shown in Fig. 4, c. The moment of time when the
+structures, and as shown in Fig. 5 a reasonable agreement between
+crystallization process begins is taken as t = 0. For heated melted
+Fig. 4. Image (b) shows the temperature distribution in the bulk of thin film induced by the single pulse with fluence profile shown on the graph (a) (pulse energy
+650 nJ); diagram (c) demonstrates the cooling curves at the points marked on (b) and corresponding to the cooling rates crystallinity, according to the TTT diagram
+in Fig. 3.
+7
+
+--- PAGE 8 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+Fig. 5. Calculated distribution of crystalline fraction in the film bulk after irradiation with a single pulse for the films of 230 nm thickness (a–c) and 130 nm thickness
+(d). The calculations were performed for three different pulse energies, which are indicated above the corresponding image. Inserts show a comparison between the
+optical contrast from simulated structures (red dots) and experimental data (white solid line) from Fig. 1; the maximum contrast values are indicated. Lateral size of
+the images is 60 μm.
+The model is developed upon the interplay between two kinetic
+processes: heat conduction and crystallization. Substrate conductivity
+type plays a crucial part only when the crystallization time is longer than
+the time taken for heat to reach the substrate. Using definition of the
+√̅̅̅̅̅
+thermal diffusion length δ =2 αt, we could estimate the characteristic
+time of heat diffusion ca. 70 ns through the film of 230 nm thickness. The
+characteristic timescale of crystallization according to our simulations
+demonstrates approximately the same value, as shown in Fig. 3.
+Therefore, when the heat reaches the substrate the phase transition is
+already over. Under such conditions the heat conductivity of the sub-
+strate is of minimal importance.
+Ultimately, the relationship between dynamics of crystallization and
+heat conductivity defines the role of substrate in overall process. As we
+have chosen a relatively thick film, it happens that in our experiment
+this role is insignificant. For thinner films thermal diffusion time be-
+comes shorter than the characteristic crystallization time, and the sub-
+strate type will be determining.
+The simulation was performed for a 130 nm thick film as well (Fig. 5
+(d)). Initial assumption that proper heat flow conditions can be achieved
+only at a sufficiently thick film is confirmed. Indeed, at thick film of 130
+nm the minimal cooling rate was about 9 K/ns, which led to the solid-
+Fig. 6. Dependences of the radius of the modified region on the incident pulse
+energy for substrate I (a) and II (b). The solid curves are experimental data, and ification of the melt with resulting crystallinity value of about 0.1.
+dots are simulation results. Therefore, the optical images of this structure are presented as the pale
+spots with low optical contrast, which is observed in the experiment (see
+Fig. 1).
+numerical and experimental results is observed.
+An increase in the pulse energy entails an increase of the modified
+6. Conclusions
+areas radii. This corresponds to the fact that the phase transformation is
+a threshold process. In GST225 films crystallization with Gaussian laser
+pulses occurs only upon reaching a certain level of the energy fluence — In this paper we demonstrated the crystallization triggered by a
+the threshold fluence of crystallization [9]. The experimentally observed
+single femtosecond laser pulse in Ge2Sb2Te5 thin film. Solving the set of
+equations describing the temperature dependencies of the incubation
+increase of the radii of the modified areas can be traced in the same way
+time, nucleation rate and crystal growth we determined the temperature
+from the simulation results. As seen in Fig. 6, the calculated values
+reproduce the experimental data for both substrate types quite well — regime required for crystallization in terms of TTT diagrams. We solved
+the heat conductivity problem to find the heat distribution induced by
+deviation is not more than 5%. The same procedure was carried out for
+the single femtosecond laser pulse and apply the calculated TTT dia-
+substrate II, and the same agreement between theory and experiment
+grams to determine the amount of formed crystalline fraction.
+was achieved.
+Comparing the experimental data with the simulation results, we have
+Fig. 6 demonstrates that the sizes of the modified regions obtained
+found the range of cooling rates at which crystallization occurs. It was
+using conductive and dielectric substrates are very close to each other.
+determined that the formation of the lower detectable limit of crystal-
+At the first glance this fact may seem to be counterintuitive since
+linity 10-8 requires cooling rate of 316 K/ns and full crystallization can
+conductive substrate is supposed to provide effective heat removal from
+be achieved at cooling rate 3.8 K/ns.
+the film and thereafter higher cooling rate. As a result, the sizes and
+Based on simulated results, we defined the distribution of crystalline
+crystallinity of the modified regions are supposed to be significantly
+fraction in the bulk of the material formed after irradiation with pulses
+smaller for the film on the conductive substrate. Yet the experiment
+of different energies. Optical contrast from simulated structures agreed
+reveals little difference in these parameters for the dielectric substrate.
+with experimental results well.
+The developed herein model for the laser-induced phase transitions,
+Appropriately low cooling rate, at which crystallization process is
+being successful in simulating the experimental data, suggest satisfac-
+possible in our experiments, was achieved for sufficiently thick films
+tory explanation for this dilemma.
+only. Little difference is observed in results of laser induced modification
+8
+
+--- PAGE 9 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+whether the substrate is a good or a poor heat conductor. On the basis of [12] G.W. Burr, et al., Observation and modeling of polycrystalline grain formation in
+simulation results, it is explained by finite time of heat diffusion through Ge2Sb2Te5, J. Appl. Phys. 111 (10) (2012) 104308, https://doi.org/10.1063/
+1.4718574.
+the film, which exceeds the crystallization time for the thick films. . [13] N. Yamada, E. Ohno, K. Nishiuchi, N. Akahira, M. Takao, Rapid-phase transitions
+However, simulation shows that the complete crystallization of the of GeTe-Sb2Te3 pseudobinary amorphous thin films for an optical disk memory,
+irradiated region may not be achieved for a 230 nm thick film on sub- J. Appl. Phys. 69 (5) (1991) 2849–2856, https://doi.org/10.1063/1.348620.
+[14] S. Kozyukhin, et al., Specific features of formation of laser-induced periodic surface
+strate with low thermal conductivity. For that purpose, it is needed to
+structures on Ge2Sb2Te5 amorphous thin films under illumination by femtosecond
+reduce heat transfer from the irradiated region by increasing the film laser pulses, Phys. Status Solidi B 257 (11) (2020) 1900617, https://doi.org/
+thickness or, presumably, covering on top of the GST film. 10.1002/pssb.201900617.
+[15] H.K. Lyeo, et al., Thermal conductivity of phase-change material Ge2Sb2Te5, Appl.
+Phys. Lett. 89 (2006) 151904, https://doi.org/10.1063/1.2359354.
+CRediT authorship contribution statement [16] Y.-H. Huang, T.-E. Hsieh, Effective thermal parameters of chalcogenide thin films
+and simulation of phase-change memory, Int. J. Therm. Sci. 87 (2015) 207–214,
+https://doi.org/10.1016/j.ijthermalsci.2014.08.004.
+Tatyana Kunkel: Conceptualization, Methodology, Investigation,
+Data curation, Writing – original draft, Writing – review & editing. Yuri [17] J fr . o L m . B r a o t o ta m gl i t a e , m e p t e a r l a . t , u T r h e e u r p m t a o l c 4 h 0 a 0 r a ◦ c C t , e J ri . z A at p i p o l n . P o h f y th s. e 1 S 0 i 7 O 2 (2 -G 0 e 1 2 0 S ) b , 2 0 T 4 e 4 5 3 i 1 n 4 te , r h f t a t c p e s ://
+Vorobyov: Conceptualization, Methodology, Investigation, Writing – doi.org/10.1063/1.3284084.
+original draft. Mikhail Smayev: Methodology, Investigation, Writing – [18] W.K. Njoroge, H.-W. Wo¨ltgens, M. Wuttig, Density changes upon crystallization of
+original draft, Writing – review & editing. Petr Lazarenko: Resources, 2 G 3 e 0 2S – b 2 2 3 . 3 04 , T h e t 4 t . p 7 s 4 : fi // lm do s i , . o J. r g V / a 1 c 0 . . S 1 c 1 i 1 . T 6/ e 1 ch .1 n 4 o 3 l. 0 A 24 V 9 a . cuum, Surfaces, Film. 20 (1) (2002)
+Methodology, Investigation, Writing – original draft. Alexey Romash- [19] P. Nˇemec, A. Moreac, V. Nazabal, M. Pavliˇsta, J. Pˇrikryl, M. Frumar, Ge-Sb-Te thin
+kin: Methodology, Validation. Sergey Kozyukhin: Conceptualization, films deposited by pulsed laser: an ellipsometry and Raman scattering spectroscopy
+study, J. Appl. Phys. 106 (10) (2009), https://doi.org/10.1063/1.3259435.
+Methodology, Supervision, Project administration, Writing – original [20] C. Cabral Jr., K.N. Chen, L. Krusin-Elbaum, V. Deline, Irreversible modification of
+draft, Funding acquisition. Ge2Sb2Te5 phase change material by nanometer-thin Ti adhesion layers in a
+device-compatible stack, Appl. Phys. Lett. 90 (2007), 051908, https://doi.org/
+10.1063/1.2450656.
+Declaration of competing interest
+[21] G. Zhang, F. Gan, S. Lysenko, H. Liu, Observation of ultrafast carrier dynamics in
+amorphous Ge2Sb2Te5 films induced by femtosecond laser pulses, J. Appl. Phys.
+The authors declare that they have no known competing financial 101 (2007), 033127, https://doi.org/10.1063/1.2435819.
+[22] M. Salinga, J. Kalb, M. Klein, T. Sontheimer, F. Spaepen, M. Wuttig, Glass
+interests or personal relationships that could have appeared to influence
+transition and crystallization in phase change materials, in: EPCOS 2007, 2007,
+the work reported in this paper. p. 13.
+[23] A. Aladool, M.M. Aziz, C.D. Wright, Understanding the importance of the
+temperature dependence of viscosity on the crystallization dynamics in the
+Acknowledgments
+Ge2Sb2Te5 phase-change material, J. Appl. Phys. 121 (22) (2017), https://doi.org/
+10.1063/1.4985282.
+Current work was supported by RFBR (project 20-03-00379) and [24] S. Senkader, C.D. Wright, Models for phase-change of Ge2Sb2Te5 in optical and
+electrical memory devices, J. Appl. Phys. 95 (2) (2004) 504–511, https://doi.org/
+Council on grants of the President of the Russian Federation (no. MK-
+10.1063/1.1633984.
+1155.2021.1.3). [25] J.A. Kalb, F. Spaepen, M. Wuttig, Kinetics of crystal nucleation in undercooled
+The experiments were performed using equipment of Regional droplets of Sb- and Te-based alloys used for phase change recording, J. Appl. Phys.
+Centre for Probe Microscopy of RSREU and Core Facilities Centre ‘MEMS 98 (5) (2005), 054910, https://doi.org/10.1063/1.2037870.
+[26] K. Kohary, C. David Wright, Electric field induced crystallization in phase-change
+and electronic components’ and ‘STI Sensory’ of MIET. materials for memory applications, Appl. Phys. Lett. 98 (2011) 223102, https://
+doi.org/10.1063/1.3595408.
+References [27] J.A. Kalb, F. Spaepen, M. Wuttig, Atomic force microscopy measurements of crystal
+nucleation and growth rates in thin films of amorphous Te alloys, Appl. Phys. Lett.
+84 (25) (2004) 5240–5242, https://doi.org/10.1063/1.1764591.
+[1] A.V. Kolobov, P. Fons, A.I. Frenkel, A.L. Ankudinov, J. Tominaga, T. Uruga, [28] A. Sebastian, M. Le Gallo, D. Krebs, Crystal growth within a phase change memory
+Understanding the phase-change mechanism of rewritable optical media, Nat. cell, Nat. Commun. 5 (4314) (2014), https://doi.org/10.1038/ncomms5314.
+Mater. 3 (2004) 703–708, https://doi.org/10.1038/nmat1215. [29] D.R. Lide, CRC Handbook of Chemistry and Physics, vol. 85, CRC press, 2004.
+[2] M. Wuttig, H. Bhaskaran, T. Taubner, Phase-change materials for non-volatile [30] D.R. Uhlmann, A kinetic treatment of glass formation, J. Non-Cryst. Solids 7 (4)
+photonic applications, Nat. Photonics 11 (8) (2017) 465–476, https://doi.org/ (1972) 337–348, https://doi.org/10.1016/0022-3093(72)90269-4.
+10.1038/nphoton.2017.126. [31] I. Gutzow, D. Kashchiev, I. Avramov, Nucleation and crystallization in glass-
+[3] S. Raoux, W. Wełnic, D. Ielmini, Phase change materials and their application to forming melts: olds problems and new questions, J. Non-Cryst. Solids 73 (1985)
+nonvolatile memories, Chem. Rev. 110 (1) (2010) 240–267, https://doi.org/ 477–499, https://doi.org/10.1016/0022-3093(85)90370-9.
+10.1021/cr900040x. [32] A.V. Kolobov, A.S. Mishchenko, P. Fons, S.M. Yakubenya, J. Tominaga, A possible
+[4] Z. Cheng, C. Ríos, N. Youngblood, C.D. Wright, W.H.P. Pernice, H. Bhaskaran, mechanism of ultrafast amorphization in phase-change memory alloys: an ion
+Device-level photonic memories and logic applications using phase-change slingshot from the crystalline to amorphous position, J. Phys. Condens. Matter 19
+materials, Adv. Mater. 30 (2018) 1802435, https://doi.org/10.1002/ (2007) 455209, https://doi.org/10.1088/0953-8984/19/45/455209.
+adma.201802435. [33] S.C. Baker-Finch, K.R. McIntosh, D. Yan, K.C. Fong, T.C. Kho, Near-infrared free
+[5] Q.F. Wang, et al., Ultrafast phase transitions in Ge1Sb2Te4 films induced by carrier absorption in heavily doped silicon, J. Appl. Phys. 116 (2014), 063106,
+femtosecond laser beam, Proc. SPIE 5069 (2003) 165–172, https://doi.org/ https://doi.org/10.1063/1.4893176.
+10.1117/12.532649. [34] N.A. Bogoslovskij, K.D. Tsendin, Electronic-thermal switching and memory in
+[6] X. Sun, et al., Crystallization of Ge2Sb2Te5 thin films by nano- and femtosecond chalcogenide glassy semiconductors, J. Non-Cryst. Solids 357 (3) (2011) 992–995,
+single laser pulse irradiation, Sci. Rep. 6 (2016) 28246, https://doi.org/10.1038/ https://doi.org/10.1016/j.jnoncrysol.2010.11.048.
+srep28246. [35] J. Kalb, F. Spaepen, T.P.L. Pedersen, M. Wuttig, Viscosity and elastic constants of
+[7] G. Zhang, D. Gu, X. Jiang, Q. Chen, F. Gan, Crystallization of amorphous Ge2Sb2Te5 thin films of amorphous Te alloys used for optical data storage, J. Appl. Phys. 94
+films induced by a single femtosecond laser pulse, Solid State Commun. 133 (4) (2003) 4908, https://doi.org/10.1063/1.1610775.
+(2005) 209–212, https://doi.org/10.1016/j.ssc.2004.11.013. [36] D. Kashchiev, Chapter 27 - crystal growth, in: D. Kashchiev (Ed.), Nucleation,
+[8] J. Siegel, et al., Amorphization dynamics of Ge2Sb2Te5 films upon nano- and Butterworth-Heinemann, Oxford, 2000, pp. 391–409.
+femtosecond laser pulse irradiation, J. Appl. Phys. 103 (2008), 023516, https:// [37] D. Kashchiev, Solution of the non-steady state problem in nucleation kinetics, Surf.
+doi.org/10.1063/1.2836788. Sci. 14 (1) (1969) 209–220, https://doi.org/10.1016/0039-6028(69)90055-7.
+[9] T. Kunkel, et al., Experimental observation of two-stage crystallization of [38] C.V. Thompson, F. Spaepen, On the approximation of the free energy change on
+Ge2Sb2Te5 amorphous thin films under the influence of a pulsed laser, J. Alloys crystallization, Acta Metall. 27 (12) (1979) 1855–1859, https://doi.org/10.1016/
+Compd. 851 (2021) 156924, https://doi.org/10.1016/j.jallcom.2020.156924. 0001-6160(79)90076-2.
+[10] R. Jeyasingh, et al., Ultrafast characterization of phase-change material [39] J. Orava, A.L. Greer, B. Gholipour, D.W. Hewak, C.E. Smith, Characterization of
+c (2 ry 0 s 1 t 4 a ) ll i 3 z 4 a 1 ti 9 o – n 3 p 4 r 2 o 6 p , e h rt t i t e p s s : i / n / t d h o e i . m or e g l / t- 1 q 0 u . e 1 n 0 c 2 h 1 e / d n a l5 m 0 o 0 r 9 p 4 h 0 o z u . s phase, Nano Lett. 14 (6) c su a p lo e r r i c m o e o t l r e y d , l N iq a u t. i d M G a e te 2 r S . b 1 2T 1 e ( 5 4 a ) n ( d 2 0 i 1 ts 2 c ) r 2 y 7 st 9 a – l 2 li 8 za 3 t , i o h n tt p b s y : / u / l d tr o a i. f o a r s g t- / h 1 e 0 a . t 1 in 0 g 3 8/
+[11] Y. Choi, M. Jung, Y.K. Lee, Effect of heating rate on the activation energy for nmat3275.
+crystallization of amorphous Ge2Sb2Te5 thin film, Electrochem. Solid State Lett. 12 [40] K.F. Kelton, A.L. Greer, C.V. Thompson, Transient nucleation in condensed
+(7) (2009) F17–F19, https://doi.org/10.1149/1.3129137. systems, J. Chem. Phys. 79 (12) (1983) 6261–6276, https://doi.org/10.1063/
+1.445731.
+9
+
+--- PAGE 10 ---
+T. Kunkel et al. M a t e r i a l s S c i e n c e i n S e m ic o n d u c t o r P r o c e s s i n g 139(2022)106350
+[41] J.C. Mauro, Y. Yue, A.J. Ellison, P.K. Gupta, D.C. Allan, Viscosity of glass-forming [45] J. Kalikka, J. Akola, R.O. Jones, Simulation of crystallization in Ge2Sb2Te5: a
+liquids, Proc. Natl. Acad. Sci. Unit. States Am. 106 (47) (2009) 19780–19784, memory effect in the canonical phase-change material, Phys. Rev. B 90 (2014)
+https://doi.org/10.1073/pnas.0911705106. 184109, https://doi.org/10.1103/PhysRevB.90.184109.
+[42] M. Salinga, et al., Measurement of crystal growth velocity in a melt-quenched [46] J. Hegedüs, S.R. Elliott, Microscopic origin of the fast crystallization ability of Ge-
+phase-change material, Nat. Commun. 4 (2371) (2013), https://doi.org/10.1038/ Sb-Te phase-change memory materials, Nat. Mater. 7 (5) (2008) 399–405, https://
+ncomms3371. doi.org/10.1038/nmat2157.
+[43] S.J. Byrnes, Multilayer Optical Calculations, 2016, 02720 arXiv:1603. [47] F.R. Liu, et al., An explanation of the crystallization of amorphous Ge2Sb2Te5 films
+[44] K.N. Egarmin, E.N. Voronkov, S.A. Kozyukhin, Information reliability evaluation of induced by a short Gaussian laser pulse, Appl. Phys. Lett. 103 (5) (2013), 051905,
+a Ge2Sb2Te5-based phase change memory cell, Inorg. Mater. 49 (9) (2013) https://doi.org/10.1063/1.4817251.
+878–882, https://doi.org/10.1134/S0020168513090057.
+10
