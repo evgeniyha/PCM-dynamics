@@ -87,6 +87,12 @@ class GST225:
 
     @property
     def monomer_volume(self) -> float:
+        """Average atomic monomer volume [m^3].
+
+        The article treats a monomer as an arbitrary atom of the GST225
+        composition, so ``v_m`` is estimated from the density and the average
+        atomic molar mass, not from the full Ge2Sb2Te5 formula-unit volume.
+        """
         mean_atomic_molar_mass = self.molar_mass_formula / self.atoms_per_formula
         return mean_atomic_molar_mass / (self.density * Avogadro)
 

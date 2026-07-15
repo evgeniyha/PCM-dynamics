@@ -243,29 +243,6 @@ Open in MATLAB with:
 open_crystallinity_profile_matlab
 ```
 
-## Git notes
-
-The repository intentionally ignores generated and heavy files:
-
-```gitignore
-.venv/
-.matplotlib_cache/
-__pycache__/
-lg_modes_test/
-*.zip
-```
-
-The `output/` folder is not ignored, so selected generated data and figures can
-be committed when they are useful for reproducing diagnostics, for example:
-
-```powershell
-git add output/wpd_datasets.csv
-git add output/fluence_fit_from_image/fluence_fit.png
-```
-
-Large temporary folders, virtual environments, Python caches, `lg_modes_test/`,
-and zip archives stay out of Git.
-
 ## Numerical notes
 
 The article reports a very fine mesh; the default scripts use coarser but more
