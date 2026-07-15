@@ -1,92 +1,282 @@
 # GST225 laser crystallization model
 
-Python implementation of the thermal and crystallization model from:
+Python implementation and diagnostics for the thermal/crystallization model
+discussed in:
 
 T. Kunkel et al., *Crystallization of GST225 thin film induced by a single
-femtosecond laser pulse: Experimental and theoretical study*, Materials
-Science in Semiconductor Processing 139 (2022) 106350.
+femtosecond laser pulse: Experimental and theoretical study*, Materials Science
+in Semiconductor Processing 139 (2022) 106350.
+
+The code is a research reproduction/diagnostic tool, not the authors' original
+program.
 
 ## What is implemented
 
-- 2D axisymmetric heat conduction in a GST film and homogeneous substrate;
-- Gaussian 1030 nm pulse and Beer-Lambert absorption;
-- optional melting/freezing latent heat through effective heat capacity;
-- transient homogeneous nucleation, growth and isothermal TTT curves;
-- conversion of cooling rate to crystallinity using the tangent construction
-  employed in the paper.
-- a two-dimensional crystalline-fraction profile `Xc(r,z)` analogous to Fig. 5.
+- 2D axisymmetric heat conduction in a GST film on a homogeneous substrate.
+- Gaussian 1030 nm pulse with Beer-Lambert absorption.
+- Optional melting/freezing latent heat through an equivalent heat-capacity
+  method.
+- Article-like crystallinity maps `Xc(r,z)` using digitized TTT curves.
+- Diagnostics for fluence fitting, article temperature-profile digitization,
+  convergence, and comparison with COMSOL point traces.
 
-The default absorption uses `alpha_linear = 10 um^-1` in the heat-source
-prefactor and `alpha_eff = 16.2 um^-1` in the Beer-Lambert attenuation term,
-following the paper's interpretation `alpha_eff = alpha + alpha_f`. The
-Gaussian fluence is normalised as
-`F(r) = 2 E / (pi w^2) exp(-2 r^2 / w^2)`, where `w` is the 1/e^2 fluence
-radius. This integrates to the pulse energy `E` and matches the fluence peak
-and width in Fig. 4a; the printed Eq. (5) in the article appears to omit the
-radial factor of two in the exponent. The
-fragility `m = 67` and interfacial energy `sigma = 0.063 J/m^2` follow the
-paper. Predictions for a new film or substrate should therefore be validated
-experimentally. For very thin films, set a measured GST/substrate thermal
-boundary resistance with `interface_resistance`.
+The heat source uses
 
-## Run
-
-```powershell
-python run_article_case.py
-python run_article_case.py --film-nm 50 --substrate tungsten --energy-nj 650
-python run_article_case.py --no-phase-change
-python run_article_case.py --crystallinity-method path_intersection
+```text
+F(r) = 2 E / (pi w^2) exp(-2 r^2 / w^2)
+q(r,z) = (1 - R) alpha F(r) exp(-alpha_eff z)
 ```
 
-The plot is written to `output/article_case.png`.
+where `w` is the 1/e² fluence radius. Fitting the article screenshot gives
+`w ≈ 35 um` and `F0 ≈ 34 mJ/cm²` for `650 nJ`.
 
-The default crystallinity profile uses the article-style TTT/cooling-curve
-intersection construction. A cooling-rate diagnostic approximation is available
-with `--crystallinity-method cooling_rate` for comparison.
+Current default GST optical parameters:
 
-## Optional convergence study
-
-The convergence study is never started automatically. A short workflow check:
-
-```powershell
-.\.venv\Scripts\python.exe convergence_study.py --quick
+```text
+alpha_linear = 10 um^-1
+alpha_eff    = 16.2 um^-1
 ```
 
-Full spatial, temporal and domain-size comparison (potentially expensive):
+## Setup
+
+Create/activate a virtual environment and install dependencies:
 
 ```powershell
-.\.venv\Scripts\python.exe convergence_study.py --mode all
+python -m venv .venv
+.\.venv\Scripts\activate
+python -m pip install -r requirements.txt
 ```
 
-The convergence study compares only temperature metrics. Add
-`--no-phase-change` to run a pure heat-conduction control calculation with
-constant amorphous GST properties. Results are saved under
-`output/convergence/` as CSV, JSON and PNG files.
+Dependencies are:
 
-Required packages: NumPy, SciPy and Matplotlib. Run tests with:
+```text
+numpy
+scipy
+matplotlib
+pillow
+```
+
+Run tests:
 
 ```powershell
 python -m unittest -v
 ```
 
-## Numerical fidelity
+## Main article-like run with digitized TTT curves
 
-The example uses a coarser spacing than the article so that it runs on a normal
-workstation. Change `Grid(dr=50e-9, dz_film=5e-9, dz_substrate=5e-9)` to
-reproduce the reported film mesh and extend it into the substrate. This can
-require a very large amount of memory. The 185 fs heating
-stage is applied as an instantaneous enthalpy increment because thermal
-diffusion during the pulse is negligible; subsequent cooling uses implicit
-finite-volume time integration with the paper's 0.5 ns default step.
+The current main script is:
 
-The article does not supply source code or every numerical convention. In
-particular, the exact crystallinity assignment for a non-isothermal trace is
-reconstructed from its stated TTT tangent procedure. This implementation is a
-transparent research reproduction, not the authors' original program.
+[run_article_case_digitized_ttt.py](run_article_case_digitized_ttt.py)
 
-With the table value `sigma = 0.063 J/m^2` and the printed value `m = 67`, the
-implementation gives a TTT nose near 670 K but slower absolute TTT times than
-reported in the paper. This indicates that at least one numerical/material
-convention is absent from the publication. Do not hide that discrepancy by
-treating the code as an exact replica; recalibrate kinetic parameters against
-your own experiment.
+Run:
+
+```powershell
+.\.venv\Scripts\python.exe run_article_case_digitized_ttt.py
+```
+
+By default it uses WebPlotDigitizer data from:
+
+```text
+output/wpd_datasets.csv
+```
+
+Important options:
+
+```powershell
+--energy-nj 650
+--film-nm 230
+--substrate silica
+--end-ns 450
+--dt-ns 0.5
+--no-phase-change
+--interpolate-ttt
+--min-delta-t-for-crystallinity-k 350
+```
+
+TTT interpolation is off by default. Add `--interpolate-ttt` only if you want
+continuous values between digitized TTT contours.
+
+Main outputs:
+
+```text
+output/article_case_digitized_ttt.png
+output/figure_4c_digitized_ttt.png
+output/cooling_traces_digitized_ttt.png
+output/crystallinity_profile_digitized_ttt.png
+output/crystallinity_profile_digitized_ttt.npz
+output/crystallinity_profile_digitized_ttt.mat
+```
+
+The colorbar in crystallinity maps is fixed to `0..1`.
+
+## Original formula-based model
+
+[run_article_case.py](run_article_case.py) still runs the formula-based kinetic
+model:
+
+```powershell
+.\.venv\Scripts\python.exe run_article_case.py
+```
+
+This route calculates TTT curves from nucleation/growth equations and is useful
+as a diagnostic, but it does not reproduce the article TTT contours perfectly
+with the printed parameters.
+
+## Fluence fit from the article image
+
+[fit_article_fluence_from_image.py](fit_article_fluence_from_image.py) digitizes
+the red fluence curve in:
+
+```text
+Screenshot 2026-07-15 121007.png
+```
+
+Run:
+
+```powershell
+.\.venv\Scripts\python.exe fit_article_fluence_from_image.py
+```
+
+Output:
+
+```text
+output/fluence_fit_from_image/fluence_fit.png
+output/fluence_fit_from_image/digitized_fluence.csv
+```
+
+The fit values are also printed on the plot.
+
+## Article temperature-profile comparison
+
+[digitize_article_temperature_profiles.py](digitize_article_temperature_profiles.py)
+extracts vertical and lateral temperature profiles from the article screenshot.
+It writes both raw RGB-derived temperatures and a corrected profile where the
+large red plateau is mapped to the melting temperature.
+
+```powershell
+.\.venv\Scripts\python.exe digitize_article_temperature_profiles.py
+```
+
+Then compare article profiles with the Python thermal model:
+
+```powershell
+.\.venv\Scripts\python.exe compare_article_temperature_profile.py
+```
+
+The comparison plot shows both raw and corrected article points.
+
+Output:
+
+```text
+output/article_temperature_profile_comparison.png
+```
+
+## COMSOL comparison
+
+COMSOL point traces are read from:
+
+```text
+test_radial.txt
+```
+
+Run:
+
+```powershell
+.\.venv\Scripts\python.exe compare_comsol_radial.py
+```
+
+Outputs are saved in:
+
+```text
+output/comsol_comparison/
+```
+
+If the COMSOL model used a different beam radius, pass it explicitly. For
+example, for `w = 30 um`:
+
+```powershell
+.\.venv\Scripts\python.exe compare_comsol_radial.py --spot-radius-um 30
+```
+
+There is also a phase-change smoothing diagnostic:
+
+```powershell
+.\.venv\Scripts\python.exe compare_melt_smoothing_width.py
+```
+
+## Convergence study
+
+The convergence study is optional and never runs automatically.
+
+Quick check:
+
+```powershell
+.\.venv\Scripts\python.exe convergence_study.py --quick
+```
+
+Full comparison:
+
+```powershell
+.\.venv\Scripts\python.exe convergence_study.py --mode all
+```
+
+Results are saved under:
+
+```text
+output/convergence/
+```
+
+Use `--no-phase-change` for a pure heat-conduction control calculation with
+constant amorphous GST properties.
+
+## MATLAB export
+
+The crystallinity profile can be saved/read as `.mat`:
+
+```powershell
+.\.venv\Scripts\python.exe convert_crystallinity_npz_to_mat.py
+```
+
+Open in MATLAB with:
+
+```matlab
+open_crystallinity_profile_matlab
+```
+
+## Git notes
+
+The repository intentionally ignores generated and heavy files:
+
+```gitignore
+.venv/
+.matplotlib_cache/
+__pycache__/
+lg_modes_test/
+*.zip
+```
+
+The `output/` folder is not ignored, so selected generated data and figures can
+be committed when they are useful for reproducing diagnostics, for example:
+
+```powershell
+git add output/wpd_datasets.csv
+git add output/fluence_fit_from_image/fluence_fit.png
+```
+
+Large temporary folders, virtual environments, Python caches, `lg_modes_test/`,
+and zip archives stay out of Git.
+
+## Numerical notes
+
+The article reports a very fine mesh; the default scripts use coarser but more
+practical grids. The femtosecond pulse is applied as an instantaneous enthalpy
+increment because thermal diffusion during the pulse is negligible; subsequent
+cooling uses implicit finite-volume time integration.
+
+The exact non-isothermal crystallinity assignment is not fully specified in the
+paper. The WPD-TTT path uses the article's graphical idea: a cooling curve is
+assigned the crystalline fraction of the TTT contour it reaches/intersects.
+
+For new substrates or very thin films, validate against experiment or COMSOL and
+consider adding a GST/substrate thermal boundary resistance through
+`interface_resistance`.
